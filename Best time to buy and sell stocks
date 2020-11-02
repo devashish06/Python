@@ -1,0 +1,10 @@
+class Solution:
+  def max Profit(self,prices:List[int])->str:
+    maxSale=0
+    maxProfit=0
+    for i in range(len(prices)-1,-1,-1):
+      maxSale=max(maxSale,prices[i])
+      maxProfit=max(maxProfit,maxSale-price[i])
+      
+    retun maxProfit 
+    
